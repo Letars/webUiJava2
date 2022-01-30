@@ -7,11 +7,11 @@ import org.junit.platform.commons.logging.LoggerFactory;
 public class FunctionsTest {
  private static org.junit.platform.commons.logging.Logger Logger = LoggerFactory.getLogger(FunctionsTest.class);
 
-    @BeforeEach
-    static void Logging() {
-        Logger.error("Log error");
-        Logger.info("Info");
-    }
+//    @BeforeEach
+//    static void Logging() {
+//        Logger.error("Log error");
+//        Logger.info("Info");
+//    }
 
 
     @BeforeEach
