@@ -22,6 +22,7 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import java.util.Iterator;
 
+@Story("Работа с фильмами")
 public class AfishaPageObjectTest {
     WebDriver driver;
     //EventFiringWebDriver eventFiringWebDriver;

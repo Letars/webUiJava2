@@ -44,7 +44,7 @@ public class LoginPage extends BasePage{
     @Step("Заполнить поле пароля")
     public LoginPage fillPassword(String password) {
         passwordInput.sendKeys(password);
-        //webDriverWait.until(d -> d.findElement(By.id("login")).getAttribute("value").contains("@rambler"));
+        webDriverWait.until(d -> d.findElement(By.id("login")).getAttribute("value").contains("@rambler"));
         return this;
     }
 
@@ -64,5 +64,4 @@ public class LoginPage extends BasePage{
         }
         return new MainPage(driver);
     }
-
 }
